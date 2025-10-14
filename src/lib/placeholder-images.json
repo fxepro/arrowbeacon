@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "product-1",
+      "description": "ArrowBeacon™ Pro model",
+      "imageUrl": "https://picsum.photos/seed/AB1/600/400",
+      "imageHint": "aviation hardware"
+    },
+    {
+      "id": "product-2",
+      "description": "ArrowBeacon™ Standard model",
+      "imageUrl": "https://picsum.photos/seed/AB2/600/400",
+      "imageHint": "airport runway"
+    },
+    {
+      "id": "product-3",
+      "description": "ArrowBeacon™ Portable unit",
+      "imageUrl": "https://picsum.photos/seed/AB3/600/400",
+      "imageHint": "portable equipment"
+    },
+    {
+      "id": "hero-background",
+      "description": "Cockpit view of a runway at dusk",
+      "imageUrl": "https://picsum.photos/seed/hero/1920/1080",
+      "imageHint": "cockpit runway"
+    },
+    {
+      "id": "mobile-app-1",
+      "description": "Screenshot of the mobile app dashboard",
+      "imageUrl": "https://picsum.photos/seed/app1/400/800",
+      "imageHint": "app interface"
+    },
+    {
+      "id": "mobile-app-2",
+      "description": "Screenshot of the mobile app map view",
+      "imageUrl": "https://picsum.photos/seed/app2/400/800",
+      "imageHint": "app map"
+    },
+    {
+      "id": "feature-1",
+      "description": "A pilot interacting with a guidance system",
+      "imageUrl": "https://picsum.photos/seed/feat1/800/600",
+      "imageHint": "pilot technology"
+    }
+  ]
+}
