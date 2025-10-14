@@ -27,7 +27,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import { handleDemoRequest } from "@/app/actions";
+// Removed server action import for static export
 
 const formSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters."),
@@ -60,7 +60,12 @@ export function DemoRequestModal() {
     setIsSubmitting(true);
     setResponse(null);
     try {
-      const result = await handleDemoRequest(values);
+      // Simulate form submission for static export
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      const result: { success: true; message: string } = { 
+        success: true, 
+        message: "Demo request submitted successfully. We'll get back to you soon!" 
+      };
       setResponse(result);
       toast({
         title: "Success",

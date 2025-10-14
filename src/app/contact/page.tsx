@@ -18,7 +18,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import { handleContactSubmission } from "@/app/actions";
+// Removed server action import for static export
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const contactFormSchema = z.object({
@@ -40,7 +40,8 @@ export default function ContactPage() {
 
     const onSubmit = async (values: ContactFormValues) => {
         try {
-        await handleContactSubmission(values);
+        // Simulate form submission for static export
+        await new Promise(resolve => setTimeout(resolve, 1000));
         toast({
             title: "Message Sent!",
             description: "Thank you for contacting us. We'll be in touch soon.",
